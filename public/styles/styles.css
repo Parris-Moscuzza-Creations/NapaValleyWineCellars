@@ -141,10 +141,48 @@ img {
   display: block; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
 
 li {
   list-style-type: none; }
 
+* {
+  padding: 0;
+  margin: 0; }
+
 header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/headerImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh; }
+
+.headerNav {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  align-items: center; }
+
+.napaTextLogo {
+  width: 50%; }
+
+.mainNav {
+  width: 50%; }
+  .mainNav ul {
+    display: flex;
+    justify-content: space-between; }
+  .mainNav li {
+    text-transform: uppercase; }
+
+.headerCentreText {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  color: white; }
+
+.toggle-nav {
+  display: none; }
