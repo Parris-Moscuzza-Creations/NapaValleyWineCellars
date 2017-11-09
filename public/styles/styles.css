@@ -137,4 +137,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   margin: 0 auto; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  display: block; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+header {
+  height: 100vh; }
