@@ -1,6 +1,9 @@
 .contactInfo{
 	border-collapse: collapse;
 	width: 45%;
+	a{
+		color: inherit;
+	}
 	th, td{
 		text-align: left;
 		padding: 8px;
