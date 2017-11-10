@@ -151,6 +151,9 @@ li {
   padding: 0;
   margin: 0; }
 
+body {
+  background: #e8e8e8; }
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/headerImage.jpg);
   background-size: cover;
@@ -198,22 +201,30 @@ header {
   height: 10vh;
   background-position: top; }
 
-body {
-  background: #e8e8e8; }
-
 .priceListTitle {
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
   text-align: center;
-  height: 90vh; }
+  height: 90vh;
+  line-height: 1.5;
+  width: 100%; }
 
 .priceListWrap {
   display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin-top: 5%; }
-  .priceListWrap h4 {
-    margin-bottom: 5%;
-    text-decoration: underline; }
+  width: 100%; }
+
+table {
+  border-collapse: collapse;
+  width: 45%; }
+
+th, td {
+  text-align: left;
+  padding: 8px; }
+
+tr:nth-child(even) {
+  background-color: #b9b8d3; }
+
+.red {
+  margin-right: 5%; }
