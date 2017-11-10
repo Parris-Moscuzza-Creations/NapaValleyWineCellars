@@ -165,10 +165,17 @@ header {
   align-items: center; }
 
 .napaTextLogo {
-  width: 50%; }
+  width: 50%;
+  font-family: 'IM Fell Dw Pica SC', serif;
+  display: flex;
+  flex-direction: row; }
+  .napaTextLogo .secondText {
+    font-family: 'Caveat', cursive;
+    margin-left: 1%; }
 
 .mainNav {
-  width: 50%; }
+  width: 50%;
+  font-family: 'IM Fell Dw Pica SC', serif; }
   .mainNav ul {
     display: flex;
     justify-content: space-between; }
@@ -186,3 +193,27 @@ header {
 
 .toggle-nav {
   display: none; }
+
+.smallHeader {
+  height: 10vh;
+  background-position: top; }
+
+body {
+  background: #e8e8e8; }
+
+.priceListTitle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 90vh; }
+
+.priceListWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 5%; }
+  .priceListWrap h4 {
+    margin-bottom: 5%;
+    text-decoration: underline; }
