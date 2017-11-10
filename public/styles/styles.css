@@ -202,6 +202,25 @@ header {
 .toggle-nav {
   display: none; }
 
+.about {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 85vh;
+  line-height: 2;
+  width: 50%; }
+  .about h2 {
+    margin-bottom: 5%; }
+  .about p {
+    font-size: 16px; }
+  .about a {
+    color: #564b68;
+    font-weight: bold; }
+  .about a:hover {
+    color: #b9b8d3; }
+
 .priceListTitle {
   display: flex;
   justify-content: center;
@@ -233,6 +252,8 @@ tr:nth-child(even) {
 .contactInfo {
   border-collapse: collapse;
   width: 45%; }
+  .contactInfo a {
+    color: inherit; }
   .contactInfo th, .contactInfo td {
     text-align: left;
     padding: 8px;
