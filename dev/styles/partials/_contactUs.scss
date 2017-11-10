@@ -1,0 +1,33 @@
+.contactInfo{
+	border-collapse: collapse;
+	width: 45%;
+	th, td{
+		text-align: left;
+		padding: 8px;
+		font-size: 16px;
+	}
+	tr:nth-child(even){
+		background-color: #e8e8e8;
+	}
+}
+.contact{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+	height: 85vh;
+	line-height: 1.5;
+	width: 100%;
+	h2{
+		margin-bottom: 5%;
+	}
+}
+.contactWrap{
+	display: flex;
+	width: 100%;
+}
+.map{
+	margin-left: 2%;
+}
+
