@@ -1,14 +1,10 @@
-.smallHeader{
-	height: 10vh;
-	background-position: top;
-}
 .priceListTitle{
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	flex-direction: column;
 	text-align: center;
-	height: 90vh;
+	height: 85vh;
 	line-height: 1.5;
 	width: 100%;
 }
@@ -22,7 +18,7 @@ table{
 }
 th, td{
 	text-align: left;
-	padding: 8px;
+	padding: 5px;
 }
 tr:nth-child(even){
 	background-color: #b9b8d3;

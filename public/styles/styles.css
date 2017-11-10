@@ -151,8 +151,9 @@ li {
   padding: 0;
   margin: 0; }
 
-body {
-  background: #e8e8e8; }
+.smallHeader {
+  height: 10vh;
+  background-position: top; }
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/headerImage.jpg);
@@ -192,14 +193,11 @@ header {
   justify-content: center;
   text-align: center;
   font-size: 30px;
-  color: white; }
+  color: white;
+  text-shadow: 3px 3px 2px #969696; }
 
 .toggle-nav {
   display: none; }
-
-.smallHeader {
-  height: 10vh;
-  background-position: top; }
 
 .priceListTitle {
   display: flex;
@@ -207,7 +205,7 @@ header {
   align-content: center;
   flex-direction: column;
   text-align: center;
-  height: 90vh;
+  height: 85vh;
   line-height: 1.5;
   width: 100%; }
 
@@ -221,10 +219,24 @@ table {
 
 th, td {
   text-align: left;
-  padding: 8px; }
+  padding: 5px; }
 
 tr:nth-child(even) {
   background-color: #b9b8d3; }
 
 .red {
   margin-right: 5%; }
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/headerImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom; }
+  footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    width: 100%; }
+    footer div a {
+      color: #0d0a09; }
