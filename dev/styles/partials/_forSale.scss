@@ -1,0 +1,25 @@
+.smallHeader{
+	height: 10vh;
+	background-position: top;
+}
+body{
+	background: #e8e8e8;
+}
+.priceListTitle{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+	height: 90vh;
+}
+.priceListWrap{
+	h4{
+	    margin-bottom: 5%;
+    	text-decoration: underline;
+	}
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	margin-top: 5%;
+}

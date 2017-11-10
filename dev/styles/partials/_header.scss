@@ -26,13 +26,21 @@ header{
 
 .napaTextLogo{
 	width: 50%;
+	font-family: 'IM Fell Dw Pica SC', serif;
+	display: flex;
+	flex-direction: row;
+	.secondText{
+		font-family: 'Caveat', cursive;
+		margin-left: 1%;
+	}
 }
 
 .mainNav{
 	width: 50%;
+	font-family: 'IM Fell Dw Pica SC', serif;
 	ul{
-	display: flex;
-	justify-content: space-between;
+		display: flex;
+		justify-content: space-between;
 	}
 	li{
 		text-transform: uppercase;
