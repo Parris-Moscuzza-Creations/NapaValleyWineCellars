@@ -10,25 +10,40 @@ img{
 
 a{
 	text-decoration: none;
-	color: white;
+	color: $White;
 }
 
 li{
 	list-style-type: none;
 }
 
+h2, h3, h4, h5{
+	font-family: $Header;
+}
+
+p{
+	font-family: $Text;
+}
+
 *{
 	padding: 0;
 	margin: 0;
+	color: $Black;
 }
 .smallHeader{
 	height: 10vh;
 	background-position: top;
 }
 body{
-	background: #e8e8e8;
+	background: $White;
+	color: $Black;
 }
-
+td{
+	font-family: $Text;
+}
+th{
+	font-family: $Header;
+}
 
 
 

@@ -24,18 +24,18 @@ header{
 
 .napaTextLogo{
 	width: 50%;
-	font-family: 'IM Fell Dw Pica SC', serif;
+	font-family: $Title;
 	display: flex;
 	flex-direction: row;
 	.secondText{
-		font-family: 'Caveat', cursive;
+		font-family: $TitleSecondary;
 		margin-left: 1%;
 	}
 }
 
 .mainNav{
 	width: 50%;
-	font-family: 'IM Fell Dw Pica SC', serif;
+	font-family: $Title;
 	ul{
 		display: flex;
 		justify-content: space-between;
@@ -52,8 +52,10 @@ header{
 	justify-content: center;
 	text-align: center;
 	font-size: 30px;
-	color: white;
-	text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+	h1{
+		color: $White;
+		text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+	}
 }
 
 .toggle-nav{
