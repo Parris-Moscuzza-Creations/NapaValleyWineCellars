@@ -142,21 +142,35 @@ img {
 
 a {
   text-decoration: none;
-  color: white; }
+  color: #e8e8e8; }
 
 li {
   list-style-type: none; }
 
+h2, h3, h4, h5 {
+  font-family: "Ubuntu", sans-serif; }
+
+p {
+  font-family: "Open Sans", sans-serif; }
+
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  color: #0d0a09; }
 
 .smallHeader {
   height: 10vh;
   background-position: top; }
 
 body {
-  background: #e8e8e8; }
+  background: #e8e8e8;
+  color: #0d0a09; }
+
+td {
+  font-family: "Open Sans", sans-serif; }
+
+th {
+  font-family: "Ubuntu", sans-serif; }
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/headerImage.jpg);
@@ -173,16 +187,16 @@ header {
 
 .napaTextLogo {
   width: 50%;
-  font-family: 'IM Fell Dw Pica SC', serif;
+  font-family: "IM Fell Dw Pica SC", serif;
   display: flex;
   flex-direction: row; }
   .napaTextLogo .secondText {
-    font-family: 'Caveat', cursive;
+    font-family: "Caveat", cursive;
     margin-left: 1%; }
 
 .mainNav {
   width: 50%;
-  font-family: 'IM Fell Dw Pica SC', serif; }
+  font-family: "IM Fell Dw Pica SC", serif; }
   .mainNav ul {
     display: flex;
     justify-content: space-between; }
@@ -195,9 +209,10 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  font-size: 30px;
-  color: white;
-  text-shadow: 3px 3px 2px #969696; }
+  font-size: 30px; }
+  .headerCentreText h1 {
+    color: #e8e8e8;
+    text-shadow: 3px 3px 2px #969696; }
 
 .toggle-nav {
   display: none; }
