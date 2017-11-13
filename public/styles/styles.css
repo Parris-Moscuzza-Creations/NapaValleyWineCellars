@@ -159,7 +159,7 @@ body {
   background: #e8e8e8; }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/headerImage.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/headerImage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
