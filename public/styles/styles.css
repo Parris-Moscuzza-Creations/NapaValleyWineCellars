@@ -277,7 +277,7 @@ footer {
   background-position: bottom; }
   footer div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 5vh;
     width: 100%; }
