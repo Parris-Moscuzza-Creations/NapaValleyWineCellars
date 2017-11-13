@@ -150,7 +150,7 @@ li {
 h2, h3, h4, h5 {
   font-family: "Ubuntu", sans-serif; }
 
-p {
+p, li {
   font-family: "Open Sans", sans-serif; }
 
 * {
@@ -252,7 +252,8 @@ header {
 
 table {
   border-collapse: collapse;
-  width: 45%; }
+  width: 45%;
+  margin: 0 auto; }
 
 th, td {
   text-align: left;
@@ -260,9 +261,6 @@ th, td {
 
 tr:nth-child(even) {
   background-color: #b9b8d3; }
-
-.red {
-  margin-right: 5%; }
 
 .contactInfo {
   border-collapse: collapse;
@@ -296,7 +294,7 @@ tr:nth-child(even) {
   margin-left: 2%; }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/headerImage.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/headerImage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom; }
@@ -306,5 +304,7 @@ footer {
     align-items: center;
     height: 5vh;
     width: 100%; }
+    footer div h5 {
+      color: #e8e8e8; }
     footer div a {
-      color: #0d0a09; }
+      color: #e8e8e8; }
