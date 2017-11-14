@@ -62,3 +62,83 @@ header{
 .toggle-nav{
 	display: none;
 }
+
+@media (max-width: 768px) {
+
+	.napaTextLogo{
+		width: 100%
+	}
+
+	.toggle-nav{
+		display: block;
+		position: absolute;
+		top: 7%;
+		right: 3%;
+		z-index: 1;
+		font-size: 30px;
+		padding-right: 15px;
+		color: #ffffff;
+	}
+
+	.mainNav{
+		ul{
+			position: fixed;
+			top: 0;
+			right: -150px;
+			width: 150px;
+			display: block;
+			height: 100vh;
+			background: #ffffff;
+			margin: 0;
+			padding: 0;
+			transition: right .3s;
+			li{
+				text-align: center;
+				margin-left: 0;
+				border-bottom: none;
+				color: #ffffff;
+			}
+			li:first-child{
+				margin-top: 80%;
+				border-bottom: none;
+			}
+			li:nth-of-type(2){
+				border-bottom: none;
+			}
+			li:nth-of-type(3){
+				border-bottom: none;
+			}
+			li:last-child{
+				border-bottom: none;
+			}
+			a{
+				border-bottom: none;
+				padding: 15px 0;
+				display: inline-block;
+				width: 100%;
+				color: black;
+				&:hover{
+					color: #ffffff;
+					background:  #319883;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 736px) {
+	.centreContent{
+		height: 73vh;
+	}
+}
+
+@media (max-width: 568px) {
+	.centerImage{ 
+		h3{
+			font-size: 50px;
+		}
+		p{
+			line-height: 1.2;
+		}
+	}
+}
