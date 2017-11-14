@@ -1,56 +1,35 @@
 #contact{
-	height: 95vh;
+	height: 50vh;
 	display: flex;
 	align-items: center;
+	background: rgba(187, 182, 212, 0.4)
 }
-
-// .contact{
-// 	padding: 60px 0 60px 0 ;
-// 	h3{
-		
-// 	}
-// }
 
 
 .contactWrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
+	h2{
+		margin-bottom: 15px;
+	}
 }
 
-// .contactTitle{
-// 	padding-right: 15px;
-// }
+.contactTitle{
+	li{
+		margin-right: 15px;
+	}
+}
+
 .contactInfo{
 	display: flex;
 	line-height: 2;
+	padding-right: 40px;
 	width: 100%;
 	// align-items: center;
 	a{
 		color: inherit;
 	}
 }
-
-
-
-
-
-// .contact{
-// 	display: flex;
-// 	justify-content: center;
-// 	align-content: center;
-// 	flex-direction: column;
-// 	text-align: center;
-// 	height: 85vh;
-// 	line-height: 1.5;
-// 	width: 100%;
-// 	h2{
-// 		margin-bottom: 5%;
-// 	}
-// }
-// .contactWrap{
-// 	display: flex;
-// 	width: 100%;
-// }
-// .map{
-// 	margin-left: 2%;
-// }
 
