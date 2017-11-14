@@ -1,5 +1,18 @@
 'use strict';
 
+$('a[href^="#"]').on('click', function (e) {
+	e.preventDefault();
+
+	var target = this.hash;
+	var $target = $(target);
+
+	$('html, body').stop().animate({
+		'scrollTop': $target.offset().top
+	}, 500, 'linear', function () {
+		window.location.hash = target;
+	});
+});
+
 var hamFunction = function hamFunction() {
 	var nav = $('.mainNav ul');
 	var hamburgerIcon = $('.toggle-nav');

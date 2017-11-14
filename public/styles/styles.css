@@ -282,7 +282,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  flex-wrap: wrap; }
   #aboutUs h2 {
     width: 50%;
     font-size: 35px;
@@ -306,6 +307,7 @@ header {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
   height: 85vh;
   line-height: 1.5;
