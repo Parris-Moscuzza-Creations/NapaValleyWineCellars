@@ -1,31 +1,18 @@
-$('a[href^="#"]').on('click',function (e) {
-    e.preventDefault();
-
-    var target = this.hash;
-    var $target = $(target);
-
-    $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
-    }, 500, 'linear', function () {
-        window.location.hash = target;
-    });
-});
-
 const hamFunction = function(){
-	const nav = $('.mainNav ul');
+	const nav = $('.active');
 	const hamburgerIcon = $('.toggle-nav');
-	const navSelection = $('.mainNav ul li a ');
+	const navSelection = $('.active li a ');
 	let navOpenorClose = false;
 
 	function openNav(){
 		nav.css("right", "0px");
-		hamburgerIcon.css("color", "#319883");
+		hamburgerIcon.css("color", "black");
 		navOpenorClose = true;
 	};
 
 	function closeNav(){
-		nav.css("right", "-150px");
-		hamburgerIcon.css("color", "#ffffff");
+		nav.css("right", "-300px");
+		hamburgerIcon.css("color", "white");
 		navOpenorClose = false;
 	};
 
@@ -52,9 +39,9 @@ if(window.innerWidth > 768){
 		openNav();
 	});
 
-	navSelection.on('click', function(){
-		closeNav();
-	});
+	// navSelection.on('click', function(){
+	// 	closeNav();
+	// });
 
 	nav.on('mouseleave', function(){
 		closeNav();
