@@ -61,17 +61,14 @@ header{
 	display: none;
 }
 
-// .fa{
-// 	color: $White;
-// }
-// @media (max-width: 768px) {
-
-// }
+.fa{
+	color: $White;
+}
 
 @media (max-width: 768px) {
 
 	.napaTextLogo{
-		width: 100%
+		width: 100%;
 	}
 
 
@@ -94,7 +91,7 @@ header{
 			width: 300px;
 			display: block;
 			height: 100vh;
-			background: #ffffff;
+			background: rgba(0, 0, 0, 0.8);
 			margin: 0;
 			padding: 0;
 			transition: right .3s;
@@ -122,29 +119,30 @@ header{
 				padding: 15px 0;
 				display: inline-block;
 				width: 100%;
-				color: black;
+				color: $White;
 				&:hover{
-					color: #ffffff;
-					background: rgba(0, 0, 0, 0.5);
+					background: rgba(255, 255, 255, 0.3);
 				}
 			}
 		}
 	}
 }
 
-@media (max-width: 736px) {
-	.centreContent{
-		height: 73vh;
+@media (max-width: 480px) {
+	.napaTextLogo{
+		width: 100%;
+		h1{
+			font-size: 1.5em;
+		}
+	}
+
+	.headerCentreText{
+		h1{
+			font-size: 1.5em;
+		}
 	}
 }
 
-@media (max-width: 568px) {
-	.centerImage{ 
-		h3{
-			font-size: 50px;
-		}
-		p{
-			line-height: 1.2;
-		}
-	}
-}
+// @media (max-width: 568px) {
+	
+// }
