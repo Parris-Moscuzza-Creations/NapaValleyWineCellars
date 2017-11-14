@@ -284,14 +284,13 @@ header {
   align-items: center;
   text-align: center;
   flex-wrap: wrap; }
-  #aboutUs h2 {
-    width: 50%;
-    font-size: 35px;
-    line-height: 2; }
 
 .aboutContent {
-  width: 50%;
-  font-size: 25px; }
+  font-size: 25px;
+  background: rgba(255, 255, 255, 0.3); }
+  .aboutContent h2 {
+    font-size: 35px;
+    line-height: 2; }
 
 #forSale {
   height: 100vh;
