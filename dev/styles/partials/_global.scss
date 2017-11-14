@@ -17,11 +17,11 @@ li{
 	list-style-type: none;
 }
 
-h2, h3, h4, h5{
+h2, h3, h4, h5, th{
 	font-family: $Header;
 }
 
-p, li{
+p, li, td{
 	font-family: $Text;
 }
 
@@ -37,12 +37,6 @@ p, li{
 body{
 	background: $White;
 	color: $Black;
-}
-td{
-	font-family: $Text;
-}
-th{
-	font-family: $Header;
 }
 
 
