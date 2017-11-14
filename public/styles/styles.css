@@ -284,14 +284,14 @@ header {
   align-items: center;
   text-align: center;
   flex-wrap: wrap; }
-  #aboutUs h2 {
-    width: 50%;
-    font-size: 35px;
-    line-height: 2; }
 
 .aboutContent {
-  width: 50%;
-  font-size: 25px; }
+  font-size: 25px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 3%; }
+  .aboutContent h2 {
+    font-size: 35px;
+    margin-bottom: 2%; }
 
 @media (max-width: 768px) {
   #aboutUs {
@@ -318,7 +318,9 @@ header {
   text-align: center;
   height: 85vh;
   line-height: 1.5;
-  width: 100%; }
+  width: 100%;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.4); }
 
 .priceListWrap {
   display: flex;
@@ -327,7 +329,7 @@ header {
 
 table {
   border-collapse: collapse;
-  width: 45%;
+  width: 30%;
   margin: 0 auto; }
 
 th {
@@ -338,6 +340,9 @@ th, td {
   text-align: left;
   padding: 5px;
   font-weight: bold; }
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.46); }
 
 #contact {
   height: 60vh;
