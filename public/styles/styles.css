@@ -217,6 +217,9 @@ header {
 .toggle-nav {
   display: none; }
 
+.fa {
+  color: #e8e8e8; }
+
 @media (max-width: 768px) {
   .napaTextLogo {
     width: 100%; }
@@ -236,7 +239,7 @@ header {
     width: 300px;
     display: block;
     height: 100vh;
-    background: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
     margin: 0;
     padding: 0;
     transition: right .3s; }
@@ -259,20 +262,17 @@ header {
       padding: 15px 0;
       display: inline-block;
       width: 100%;
-      color: black; }
+      color: #e8e8e8; }
       .mainNav ul a:hover {
-        color: #ffffff;
-        background: rgba(0, 0, 0, 0.5); } }
+        background: rgba(255, 255, 255, 0.3); } }
 
-@media (max-width: 736px) {
-  .centreContent {
-    height: 73vh; } }
-
-@media (max-width: 568px) {
-  .centerImage h3 {
-    font-size: 50px; }
-  .centerImage p {
-    line-height: 1.2; } }
+@media (max-width: 480px) {
+  .napaTextLogo {
+    width: 100%; }
+    .napaTextLogo h1 {
+      font-size: 1.5em; }
+  .headerCentreText h1 {
+    font-size: 1.5em; } }
 
 #aboutUs {
   background-image: url(../../assets/whiteWineGlass.jpg);
@@ -292,6 +292,14 @@ header {
   .aboutContent h2 {
     font-size: 35px;
     margin-bottom: 2%; }
+
+@media (max-width: 768px) {
+  #aboutUs {
+    background-position: right; }
+    #aboutUs h2 {
+      width: 100%; }
+  .aboutContent {
+    width: 100%; } }
 
 #forSale {
   height: 100vh;
@@ -337,7 +345,7 @@ tr:nth-child(even) {
   background-color: rgba(255, 255, 255, 0.46); }
 
 #contact {
-  height: 50vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   background: rgba(187, 182, 212, 0.4); }
@@ -360,6 +368,23 @@ tr:nth-child(even) {
   width: 100%; }
   .contactInfo a {
     color: inherit; }
+
+@media (max-width: 768px) {
+  .contactWrap {
+    padding: 0 12px; } }
+
+@media (max-width: 480px) {
+  #contact {
+    height: 78vh; }
+  .contactWrap {
+    flex-direction: column;
+    padding: 0 10px; }
+  .contactInfo {
+    padding: 0; }
+    .contactInfo li {
+      font-size: .9em; }
+  .map {
+    margin-top: 20px; } }
 
 footer {
   background: #0d0a09; }

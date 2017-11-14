@@ -19,3 +19,16 @@
 	background: rgba(255,255,255,0.4);
 	padding: 3%;
 }
+
+@media (max-width: 768px){
+	#aboutUs{
+		background-position: right;
+		h2{
+			width: 100%;
+		}
+	}
+
+	.aboutContent{
+		width: 100%;
+	}
+}
