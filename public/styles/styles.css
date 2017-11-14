@@ -314,7 +314,7 @@ header {
 .priceListWrap {
   display: flex;
   width: 100%;
-  margin-top: 5%; }
+  margin-top: 3%; }
 
 table {
   border-collapse: collapse;
@@ -331,16 +331,26 @@ th, td {
   font-weight: bold; }
 
 #contact {
-  height: 95vh;
+  height: 50vh;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  background: rgba(187, 182, 212, 0.4); }
 
 .contactWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%; }
+  .contactWrap h2 {
+    margin-bottom: 15px; }
+
+.contactTitle li {
+  margin-right: 15px; }
 
 .contactInfo {
   display: flex;
   line-height: 2;
+  padding-right: 40px;
   width: 100%; }
   .contactInfo a {
     color: inherit; }
