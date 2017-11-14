@@ -1,26 +1,29 @@
-.contact{
-	padding: 60px 0 60px 0 ;
-	h3{
-		
-	}
+#contact{
+	height: 95vh;
+	display: flex;
+	align-items: center;
 }
+
+// .contact{
+// 	padding: 60px 0 60px 0 ;
+// 	h3{
+		
+// 	}
+// }
 
 
 .contactWrap{
 	width: 100%;
-	display: flex;
-	align-items: center;
 }
 
-.contactTitle{
-	padding-right: 15px;
-}
+// .contactTitle{
+// 	padding-right: 15px;
+// }
 .contactInfo{
 	display: flex;
-	justify-content: space-between;
 	line-height: 2;
 	width: 100%;
-	align-items: center;
+	// align-items: center;
 	a{
 		color: inherit;
 	}
