@@ -182,7 +182,7 @@ header {
 .headerNav {
   display: flex;
   width: 100%;
-  padding: 10px 0 10px 0;
+  padding: 10px;
   align-items: center; }
 
 .napaTextLogo {
@@ -223,7 +223,7 @@ header {
   .toggle-nav {
     display: block;
     position: absolute;
-    top: 7%;
+    top: 18%;
     right: 3%;
     z-index: 1;
     font-size: 30px;
@@ -232,8 +232,8 @@ header {
   .mainNav ul {
     position: fixed;
     top: 0;
-    right: -150px;
-    width: 150px;
+    right: -300px;
+    width: 300px;
     display: block;
     height: 100vh;
     background: #ffffff;
@@ -262,7 +262,7 @@ header {
       color: black; }
       .mainNav ul a:hover {
         color: #ffffff;
-        background: #319883; } }
+        background: rgba(0, 0, 0, 0.5); } }
 
 @media (max-width: 736px) {
   .centreContent {
@@ -306,7 +306,6 @@ header {
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
   text-align: center;
   height: 85vh;
   line-height: 1.5;
