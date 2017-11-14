@@ -1,15 +1,22 @@
 #aboutUs{
+	background-image: url(../../../assets/whiteWineGlass.jpg);
+	background-position: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	h2{
-		text-align: center;
-		padding: 60px 0 40px 0;
+		width: 50%;
+		font-size: 35px;
+		line-height: 2;
 	}
 }
 
 .aboutContent{
-	text-align: center;
-	p{
-		padding: 0 0 60px 0;
-	}
+	width: 50%;
+	font-size: 25px;
 }
 
 // .about{

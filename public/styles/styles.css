@@ -147,10 +147,10 @@ a {
 li {
   list-style-type: none; }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5, th {
   font-family: "Ubuntu", sans-serif; }
 
-p, li {
+p, li, td {
   font-family: "Open Sans", sans-serif; }
 
 * {
@@ -165,12 +165,6 @@ p, li {
 body {
   background: #e8e8e8;
   color: #0d0a09; }
-
-td {
-  font-family: "Open Sans", sans-serif; }
-
-th {
-  font-family: "Ubuntu", sans-serif; }
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/headerImage.jpg);
@@ -193,9 +187,7 @@ header {
 
 .napaTextLogo {
   width: 50%;
-  font-family: "IM Fell Dw Pica SC", serif;
-  display: flex;
-  flex-direction: row; }
+  font-family: "IM Fell Dw Pica SC", serif; }
   .napaTextLogo h1 {
     color: #b9b8d3; }
   .napaTextLogo .secondText {
@@ -282,14 +274,23 @@ header {
   .centerImage p {
     line-height: 1.2; } }
 
-#aboutUs h2 {
-  text-align: center;
-  padding: 60px 0 40px 0; }
+#aboutUs {
+  background-image: url(../../../assets/whiteWineGlass.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  #aboutUs h2 {
+    width: 50%;
+    font-size: 35px;
+    line-height: 2; }
 
 .aboutContent {
-  text-align: center; }
-  .aboutContent p {
-    padding: 0 0 60px 0; }
+  width: 50%;
+  font-size: 25px; }
 
 .priceListTitle {
   display: flex;
@@ -338,10 +339,7 @@ tr:nth-child(even) {
     color: inherit; }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/headerImage.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom; }
+  background: #0d0a09; }
   footer div {
     display: flex;
     justify-content: center;
@@ -350,5 +348,5 @@ footer {
     width: 100%; }
     footer div h5 {
       color: #e8e8e8; }
-    footer div a {
-      color: #e8e8e8; }
+    footer div a:hover {
+      color: #b9b8d3; }
