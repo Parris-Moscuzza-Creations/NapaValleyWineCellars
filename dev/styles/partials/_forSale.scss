@@ -42,3 +42,20 @@ th, td{
 tr:nth-child(even){
 	background-color: rgba(255,255,255,0.46);
 }
+
+@media (max-width: 768px){
+	#forSale{
+		background: none;
+		height: 100%;
+	}
+	.priceListTitle{
+		height: 100%;
+		// margin: 8%;
+	}
+	.priceListWrap{
+		flex-direction: column;
+	}
+	table{
+		margin: 20px auto;
+	}
+}

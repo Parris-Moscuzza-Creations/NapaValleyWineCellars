@@ -344,6 +344,17 @@ th, td {
 tr:nth-child(even) {
   background-color: rgba(255, 255, 255, 0.46); }
 
+@media (max-width: 768px) {
+  #forSale {
+    background: none;
+    height: 100%; }
+  .priceListTitle {
+    height: 100%; }
+  .priceListWrap {
+    flex-direction: column; }
+  table {
+    margin: 20px auto; } }
+
 #contact {
   height: 60vh;
   display: flex;
@@ -371,7 +382,8 @@ tr:nth-child(even) {
 
 @media (max-width: 768px) {
   .contactWrap {
-    padding: 0 12px; } }
+    padding: 0 12px;
+    flex-direction: column; } }
 
 @media (max-width: 480px) {
   #contact {
