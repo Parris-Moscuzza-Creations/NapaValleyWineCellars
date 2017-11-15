@@ -50,12 +50,13 @@ tr:nth-child(even){
 	}
 	.priceListTitle{
 		height: 100%;
-		// margin: 8%;
+		padding: 10% 5% 5%;
 	}
 	.priceListWrap{
 		flex-direction: column;
 	}
 	table{
 		margin: 20px auto;
+		width: 100%;
 	}
 }

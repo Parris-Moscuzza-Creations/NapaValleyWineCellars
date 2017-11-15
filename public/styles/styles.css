@@ -167,7 +167,7 @@ body {
   color: #0d0a09; }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/headerImage.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../../assets/headerImage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -211,8 +211,7 @@ header {
   text-align: center;
   font-size: 30px; }
   .headerCentreText h1 {
-    color: #e8e8e8;
-    text-shadow: 3px 3px 2px #969696; }
+    color: #e8e8e8; }
 
 .toggle-nav {
   display: none; }
@@ -226,12 +225,10 @@ header {
   .toggle-nav {
     display: block;
     position: absolute;
-    top: 18%;
     right: 3%;
     z-index: 1;
-    font-size: 30px;
-    padding-right: 15px;
-    color: #ffffff; }
+    font-size: 25px;
+    padding-right: 5px; }
   .mainNav ul {
     position: fixed;
     top: 0;
@@ -249,7 +246,7 @@ header {
       border-bottom: none;
       color: #ffffff; }
     .mainNav ul li:first-child {
-      margin-top: 80%;
+      margin-top: 50%;
       border-bottom: none; }
     .mainNav ul li:nth-of-type(2) {
       border-bottom: none; }
@@ -266,13 +263,19 @@ header {
       .mainNav ul a:hover {
         background: rgba(255, 255, 255, 0.3); } }
 
-@media (max-width: 480px) {
+@media (max-width: 568px) {
   .napaTextLogo {
     width: 100%; }
     .napaTextLogo h1 {
       font-size: 1.5em; }
   .headerCentreText h1 {
-    font-size: 1.5em; } }
+    font-size: .9em; } }
+
+@media (max-width: 480px) {
+  .napaTextLogo h1 {
+    font-size: 0.95em; }
+  .headerCentreText h1 {
+    font-size: 0.75em; } }
 
 #aboutUs {
   background-image: url(../../assets/whiteWineGlass.jpg);
@@ -349,14 +352,16 @@ tr:nth-child(even) {
     background: none;
     height: 100%; }
   .priceListTitle {
-    height: 100%; }
+    height: 100%;
+    padding: 10% 5% 5%; }
   .priceListWrap {
     flex-direction: column; }
   table {
-    margin: 20px auto; } }
+    margin: 20px auto;
+    width: 100%; } }
 
 #contact {
-  height: 60vh;
+  height: 100%;
   display: flex;
   align-items: center;
   background: rgba(187, 182, 212, 0.4); }
@@ -365,9 +370,10 @@ tr:nth-child(even) {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%; }
+  width: 100%;
+  padding: 5% 0; }
   .contactWrap h2 {
-    margin-bottom: 15px; }
+    padding: 5% 0; }
 
 .contactTitle li {
   margin-right: 15px; }
@@ -381,13 +387,17 @@ tr:nth-child(even) {
     color: inherit; }
 
 @media (max-width: 768px) {
+  #contact {
+    height: 100%; }
+  .contact {
+    height: 100%;
+    padding: 10% 0% 0%; }
   .contactWrap {
-    padding: 0 12px;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .contactInfo {
+    padding: 2% 0; } }
 
 @media (max-width: 480px) {
-  #contact {
-    height: 78vh; }
   .contactWrap {
     flex-direction: column;
     padding: 0 10px; }
@@ -396,10 +406,11 @@ tr:nth-child(even) {
     .contactInfo li {
       font-size: .9em; }
   .map {
-    margin-top: 20px; } }
+    margin: 5% 0; } }
 
 footer {
-  background: #0d0a09; }
+  background: #0d0a09;
+  text-align: center; }
   footer div {
     display: flex;
     justify-content: center;
