@@ -11,7 +11,7 @@ const hamFunction = function(){
 	};
 
 	function closeNav(){
-		nav.css("right", "-300px");
+		nav.css("right", "-200px");
 		hamburgerIcon.css("color", "white");
 		navOpenorClose = false;
 	};
