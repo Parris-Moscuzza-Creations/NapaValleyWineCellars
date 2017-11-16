@@ -1,5 +1,5 @@
 header{
-	background-image: linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)), url(../../assets/headerImage.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../../assets/headerImage.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -53,7 +53,7 @@ header{
 	font-size: 30px;
 	h1{
 		color: $White;
-		text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+		// text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
 	}
 }
 
@@ -75,12 +75,10 @@ header{
 	.toggle-nav{
 		display: block;
 		position: absolute;
-		top: 18%;
 		right: 3%;
 		z-index: 1;
-		font-size: 30px;
-		padding-right: 15px;
-		color: #ffffff;
+		font-size: 25px;
+		padding-right: 5px;
 	}
 
 	.mainNav{
@@ -102,7 +100,7 @@ header{
 				color: #ffffff;
 			}
 			li:first-child{
-				margin-top: 80%;
+				margin-top: 50%;
 				border-bottom: none;
 			}
 			li:nth-of-type(2){
@@ -128,21 +126,30 @@ header{
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 568px) {
 	.napaTextLogo{
 		width: 100%;
 		h1{
 			font-size: 1.5em;
 		}
 	}
-
 	.headerCentreText{
-		h1{
-			font-size: 1.5em;
+		h1 {
+			font-size: .9em;
 		}
 	}
 }
 
-// @media (max-width: 568px) {
-	
-// }
+@media (max-width: 480px) {
+	.napaTextLogo{
+		h1{
+			font-size: 0.95em;
+		}
+	}
+	.headerCentreText{
+		h1{
+			font-size: 0.75em;
+		}
+	}
+}
+
