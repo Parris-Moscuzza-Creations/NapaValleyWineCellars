@@ -219,7 +219,7 @@ header {
 .fa {
   color: #e8e8e8; }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .headerCentreText {
     font-size: 1em; }
   .napaTextLogo {
@@ -345,7 +345,7 @@ th, td {
 tr:nth-child(even) {
   background-color: rgba(255, 255, 255, 0.46); }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   #forSale {
     background: none;
     height: 100%; }
