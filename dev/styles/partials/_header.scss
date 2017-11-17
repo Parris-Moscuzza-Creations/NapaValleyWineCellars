@@ -3,7 +3,8 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 100vh;
+	height: 100%;
+	padding: 0 0 6% 0;
 }
 
 .navBackgroundColor{
@@ -65,7 +66,18 @@ header{
 	color: $White;
 }
 
+@media (max-width: 1024px) {
+	header{
+		padding-bottom: 7.5%;
+	}
+}
+
 @media (max-width: 868px) {
+
+	header{
+		padding-bottom: 13%;
+	}
+
 	.headerCentreText{
 		font-size: 1em;
 	}
@@ -129,7 +141,17 @@ header{
 	}
 }
 
+@media (max-width: 736px) {
+	header{
+		padding-bottom: 7.5%;
+	}
+}
+
 @media (max-width: 568px) {
+	header{
+		padding-bottom: 6.5%;
+	}
+
 	.napaTextLogo{
 		width: 100%;
 		h1{
@@ -144,6 +166,10 @@ header{
 }
 
 @media (max-width: 480px) {
+	header{
+		padding-bottom: 7.5%;
+	}
+
 	.napaTextLogo{
 		h1{
 			font-size: 0.95em;
@@ -156,3 +182,21 @@ header{
 	}
 }
 
+
+@media (max-width: 414px) {
+	header{
+		padding-bottom: 17.5%;
+	}
+
+	.headerCentreText{
+		h1{
+			padding: 0 1%;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	header{
+		padding-bottom: 19%;
+	}
+}
