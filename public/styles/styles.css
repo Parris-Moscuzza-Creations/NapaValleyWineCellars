@@ -220,6 +220,8 @@ header {
   color: #e8e8e8; }
 
 @media (max-width: 768px) {
+  .headerCentreText {
+    font-size: 1em; }
   .napaTextLogo {
     width: 100%; }
   .toggle-nav {
@@ -269,13 +271,13 @@ header {
     .napaTextLogo h1 {
       font-size: 1.5em; }
   .headerCentreText h1 {
-    font-size: .9em; } }
+    font-size: 1em; } }
 
 @media (max-width: 480px) {
   .napaTextLogo h1 {
     font-size: 0.95em; }
   .headerCentreText h1 {
-    font-size: 0.75em; } }
+    font-size: 1.2em; } }
 
 #aboutUs {
   background-image: url(../../assets/whiteWineGlass.jpg);
@@ -283,18 +285,15 @@ header {
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  flex-wrap: wrap; }
+  text-align: center; }
 
 .aboutContent {
   font-size: 25px;
   background: rgba(255, 255, 255, 0.4);
   padding: 3%; }
   .aboutContent h2 {
-    font-size: 35px;
-    margin-bottom: 2%; }
+    font-size: 35px; }
 
 @media (max-width: 768px) {
   #aboutUs {
@@ -310,7 +309,6 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: center;
   align-items: center; }
 
 .priceListTitle {
@@ -319,7 +317,7 @@ header {
   align-content: center;
   flex-direction: column;
   text-align: center;
-  height: 85vh;
+  height: 100%;
   line-height: 1.5;
   width: 100%;
   height: 80%;
