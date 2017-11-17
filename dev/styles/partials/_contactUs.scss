@@ -34,13 +34,17 @@
 	}
 }
 
-@media (max-width: 768px){
+@media (max-width: 868px){
+	.map{
+		margin-top: 6%;
+	}
+
 	#contact{
 		height: 100%;
 	}
 	.contact{
 		height: 100%;
-		padding: 10% 0% 0%
+		padding: 10% 0%;
 	}
 	.contactWrap{
 		flex-direction: column;
